@@ -17,3 +17,31 @@ header .nav{
     justify-content: space-between;
     padding: 2rem;
 }
+header .nav h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+header .nav strong{
+    margin-left: 5px; 
+    color: #aacc00;
+}
+header .menu {
+    display: flex;
+    
+}
+header .nav .menu span{
+    color: #aacc00;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+header .menu__burger .line{
+    height: 5px;
+    width: 30px;
+    background: #fff;
+    margin: 3px 0 ;
+    border-radius: 1rem;
+    margin-left: 10px;
+}
