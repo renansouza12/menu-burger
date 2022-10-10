@@ -4,8 +4,18 @@
     margin: 0;
     border: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
+
+}
+:root{
+    --color-green:#aacc00;
+    --color-white:#fff;
+    --color-black:#000;
+}
+::selection{
+    color: var(--color-green);
 }
 header{
     background: url('./img/nature-photo.jpg') center/cover;
