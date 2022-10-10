@@ -7,3 +7,13 @@
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
 }
+header{
+    background: url('./img/nature-photo.jpg') center/cover;
+    width: 100%;
+    height: 100vh;
+}
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
