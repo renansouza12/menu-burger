@@ -6,6 +6,7 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    text-decoration: none;
     font-family: 'Dosis', sans-serif;
 
 }
@@ -13,6 +14,7 @@
     --color-green:#aacc00;
     --color-white:#fff;
     --color-black:#000;
+    --light-black:#8d99ae;
 }
 ::selection{
     color: var(--color-green);
@@ -35,14 +37,14 @@ header .nav h1{
 }
 header .nav strong{
     margin-left: 5px; 
-    color: #aacc00;
+    color: var(--color-green);
 }
 header .menu {
     display: flex;
     
 }
 header .nav .menu span{
-    color: #aacc00;
+    color: var(--color-green);
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: 3px;
@@ -50,8 +52,38 @@ header .nav .menu span{
 header .menu__burger .line{
     height: 5px;
     width: 30px;
-    background: #fff;
+    background: var(--color-white);
     margin: 3px 0 ;
     border-radius: 1rem;
     margin-left: 10px;
+}
+.main__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.main__content .content span{
+    color: var(--light-black);
+    font-size: 1.3rem;
+}
+.main__content .content h3{
+    font-size: 3rem;
+}
+.main__content .content .buttons{
+    margin: 2rem 0 ;
+}
+.main__content .content .btn{
+    color: #fff;
+    border: 1px solid  #fff;
+    margin: 0 1rem;
+    padding: 1rem;
+    transition: 0.5s ease all;
+}
+.main__content .content .btn:hover{
+    background: #fff;
+    color: #000;
+}
+.main__content .content a{
+    font-size: 1.3rem;
+    font-weight: bold;
 }
