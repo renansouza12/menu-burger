@@ -68,6 +68,7 @@ header .menu__burger .line{
 }
 .main__content .content h3{
     font-size: 3rem;
+    color: var(--color-white);
 }
 .main__content .content .buttons{
     margin: 2rem 0 ;
@@ -87,3 +88,15 @@ header .menu__burger .line{
     font-size: 1.3rem;
     font-weight: bold;
 }
+.side__bar a{
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+.side__bar li{
+    margin: 2.5rem 0;
+}
+.side__bar li:hover{
+    transform: scale(1.1);
+}
+    
